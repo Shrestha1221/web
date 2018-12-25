@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(235, 222, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.main-container{
+    max-width: 900px;
+    margin: 0 auto;
+    min-width: 578px;
+}
+
+.tiles{
+    width:170px;
+    height:140px;
+    margin:4px;
+    padding:20px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.tile-double{
+    width: 390px;
+}
+
+span.title{
+    display: block;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+}
+
+span.text{
+    display: block;
+    font-size: 0.8em;
+    margin-top: 15px;
+}
+
+.btn{
+    padding: 5px 10px;
+    width: 100%;
+    border-color: rgb(145, 108, 108);
+    color: white;
+    background-color: rgb(182, 112, 112);
+}
+
+.details{
+    float: left;
+    width: 50%;
+}
+
+image-contain{
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+
+img{
+    height: 100%;
+}
+
+.red{
+    background:red;
+    color:white;
+}
+.blue{
+    background: rgb(124, 124, 238);
+    color:white;
+}
+.yellow{
+    background:yellow;
+}
+.black{
+    background: rgb(75, 72, 72);
+}
+
+bgimg{
+    background-image: url(krishna.jpg);
+    color: white;
+    background-size: 100%;
+
+}
